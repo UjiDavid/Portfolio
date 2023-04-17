@@ -11,6 +11,8 @@ const skills = [
   { skill: 'Tailwind CSS' },
   { skill: 'Git' },
   { skill: 'GitHub' },
+  { skill: 'ThreeJS' },
+  { skill: 'Framer Motion' },
 ];
 
 const AboutSection = () => {

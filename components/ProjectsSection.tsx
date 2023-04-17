@@ -8,40 +8,50 @@ import SlideUp from './SlideUp';
 
 const projects = [
   {
-    name: 'Lyriks',
+    name: 'HooBank',
     description:
-      'Lyriks is a music player that uses the Shazam API to play music and display lyrics, it also uses Geolocation API to recommend songs based on the location of the User',
-    image: '/lyriks.png',
-    github: 'https://github.com/UjiDavid/lyriks',
-    link: 'https://david-lyrics-app.netlify.app/',
+      'Hoo Bank is a Bank website with a modern desgin, it has a dark background with some cool gradients and animations to give it a modern feel.',
+    image: '/bank-app.png',
+    github: 'https://github.com/UjiDavid/bank_app',
+    link: 'https://bank-app-ujidavid.vercel.app/',
   },
   {
     name: 'Metaversus',
-    description: 'Metaversus is a web3 project about the Metaverse that I used to explore some cool animations with framer motion',
+    description: 'Metaversus is a web3 project about the Metaverse that I used to explore some cool animations with framer motion.',
     image: '/metaversus.png',
     github: 'https://github.com/UjiDavid/metaversus',
     link: 'https://metaversus-ujidavid.vercel.app/',
   },
   {
+    name: '3D Shirt',
+    description:
+      '3D Shirt is a react app, with some cool 3D effects from Three JS. It enables users customize a shirt with custom colors or texture, users can also imprint a custom logo on the shirt. And download an image of the customized shirt.',
+    image: '/threejs.png',
+    github: 'https://github.com/UjiDavid/threejs',
+    link: 'https://threejs-ujidavid.vercel.app/',
+  },
+  {
+    name: 'Lyriks',
+    description:
+      'Lyriks is a music player that uses the Shazam API to play music and display lyrics, it also uses Geolocation API to recommend songs based on the location of the User.',
+    image: '/lyriks.png',
+    github: 'https://github.com/UjiDavid/lyriks',
+    link: 'https://david-lyrics-app.netlify.app/',
+  },
+  {
     name: 'Raven & Macaw HMO',
-    description: 'Raven & Macaw HMO is a Health Management Organisation website built. I built it as part of an interview assesment',
+    description: 'Raven & Macaw HMO is a Health Management Organisation website built. I built it as part of an interview assesment.',
     image: '/raven-macaw.png',
     github: 'https://github.com/UjiDavid/raven-macaw',
     link: 'https://raven-macaw.vercel.app',
   },
   {
     name: 'Movie App',
-    description: 'Movie App is a movie website I built to practice querying data from a movie API',
+    description:
+      'Movie App is a movie website where you can search any movie and it displays movies based on the search query, infomation about a particular movie is displayed when the user selects a movie.',
     image: '/movie-app.png',
     github: 'https://github.com/UjiDavid/movie_app',
     link: 'https://movie-app-ujidavid.vercel.app/',
-  },
-  {
-    name: 'HooBank',
-    description: 'Hoo Bank is a Bank website with a modern desgin',
-    image: '/bank-app.png',
-    github: 'https://github.com/UjiDavid/bank_app',
-    link: 'https://bank-app-ujidavid.vercel.app/',
   },
 ];
 
