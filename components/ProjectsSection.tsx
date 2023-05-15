@@ -8,6 +8,22 @@ import SlideUp from './SlideUp';
 
 const projects = [
   {
+    name: 'Airbnb Clone',
+    description:
+      'This is an Airbnb Clone with full CRUD Functionality, built with NEXT.JS, Typescript, Prisma, MongoDB, NextAuth, Cloudinary',
+    image: '/airbnb-clone.jpg',
+    github: 'https://github.com/UjiDavid/airbnb',
+    link: 'https://rent-project-ujidavid.vercel.app/',
+  },
+  {
+    name: 'Promptopia',
+    description:
+      'Promptopia is a Full Stack Application that allows users add AI Prompts that can be copied and used by anyone. Built using Next.JS, MongoDB, NextAuth',
+    image: '/promptopia.jpg',
+    github: 'https://github.com/UjiDavid/promptopia',
+    link: 'https://promptopia-ujidavid.vercel.app/',
+  },
+  {
     name: 'HooBank',
     description:
       'Hoo Bank is a Bank website with a modern desgin, it has a dark background with some cool gradients and animations to give it a modern feel.',
@@ -17,7 +33,8 @@ const projects = [
   },
   {
     name: 'Metaversus',
-    description: 'Metaversus is a web3 project about the Metaverse that I used to explore some cool animations with framer motion.',
+    description:
+      'Metaversus is a web3 project about the Metaverse that I used to explore some cool animations with framer motion.',
     image: '/metaversus.png',
     github: 'https://github.com/UjiDavid/metaversus',
     link: 'https://metaversus-ujidavid.vercel.app/',
@@ -40,7 +57,8 @@ const projects = [
   },
   {
     name: 'Raven & Macaw HMO',
-    description: 'Raven & Macaw HMO is a Health Management Organisation website built. I built it as part of an interview assesment.',
+    description:
+      'Raven & Macaw HMO is a Health Management Organisation website built. I built it as part of an interview assesment.',
     image: '/raven-macaw.png',
     github: 'https://github.com/UjiDavid/raven-macaw',
     link: 'https://raven-macaw.vercel.app',
@@ -95,10 +113,16 @@ const ProjectsSection = () => {
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
                       <Link href={project.github} target="_blank">
-                        <BsGithub size={30} className="hover:-translate-y-1 transition-transform cursor-pointer" />
+                        <BsGithub
+                          size={30}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer"
+                        />
                       </Link>
                       <Link href={project.link} target="_blank">
-                        <BsArrowUpRightSquare size={30} className="hover:-translate-y-1 transition-transform cursor-pointer" />
+                        <BsArrowUpRightSquare
+                          size={30}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer"
+                        />
                       </Link>
                     </div>
                   </div>

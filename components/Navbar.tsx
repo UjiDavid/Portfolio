@@ -61,8 +61,8 @@ const Navbar = () => {
                     to={item.page}
                     className={
                       currentTheme === 'dark'
-                        ? 'block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100'
-                        : 'block lg:inline-block text-neutral-900  hover:text-neutral-500'
+                        ? 'block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100 cursor-pointer'
+                        : 'block lg:inline-block text-neutral-900  hover:text-neutral-500 cursor-pointer'
                     }
                     activeClass="active"
                     spy={true}
@@ -93,4 +93,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-Navbar;
